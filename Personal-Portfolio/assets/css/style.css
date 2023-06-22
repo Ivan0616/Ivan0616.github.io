@@ -751,8 +751,18 @@ i:hover {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.certificate-logo{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.logo-title{
+    margin-bottom: .6rem;
+}
+
 .certificate-img{
-    width: 100px;
+    width: 40px;
     margin-bottom: var(--mb-0-75);
 }
 
@@ -1317,11 +1327,11 @@ i:hover {
     }
 
     .certificate-img{
-        width: 120px;
+        width: 40px;
     }
 
     .certificate-content{
-        padding: 6rem 0 2rem 2.5rem;
+        padding: 4rem 0 2rem 2.5rem;
     }
 
     .services-container{
